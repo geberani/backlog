@@ -1,0 +1,55 @@
+1. 유저이름 userName
+2. 유저 이름 입력 폼 userNameInputForm
+Insert -> Input
+3. 비밀번호 password
+4. 재확인 비밀번호 passwordConfirm
+5. 검증된 비밀번호 passwordConfirmed ***
+6. 경고 메시지 warningMessage
+7. 폼 제출 버튼 formSubmitButton ***
+8. 취소 버튼 cancelButton ***
+9. 배경 색상 backgroundColor
+10. 텍스트 색상 textColor
+11. 다른 뷰를 감싸고 있는 뷰 surroundingView ***
+enclosingView?
+12. 홀수인지 판명 isOdd
+13. 짝수인지 판명 isEven
+14. 자식 프로퍼티를 소유하고 있는지 판명 hasChildProperty
+15. 빈 값인지 판명 isNull
+16. 숨김 처리가 되어있는지 판명 isHidden
+17. 로딩 중인지 판명 isLoading
+18. 인터넷이 켜진 상태인지 판명 internetConnected
+19. 디바이스가 태블릿 인지 판명 isTablet
+20. 사용 불가능한 상태인지 판명 isUnavailable
+21. 숨김처리된 상태인지 판명 isHidden
+22. 다크모드인지 판명 isDarkMode
+23. 이미지 주소 imageUrl
+24. 생성일 createDate
+25. 수정일 modifyDate
+26. 태그 목록 tagList
+27. 검색결과 searchResults
+28. 필터링 한 결과 filteredResults
+29. 가격 price
+30. 할인율 discountRate
+31. 할인된 가격 discountPrice
+32. 최신 포스트 목록 latestPostsList
+recent/new->latest
+33. 인기 포스트 목록 popularPostsList
+34. 구매한 상품 목록 purchasedItemsList
+35. 가장 많이 팔리는 상품들 mostSoldItems
+36. 새로고침 버튼 refreshButton
+37. 로딩 버튼 loadingButton
+38. 저장 버튼 saveButton
+39. 회원가입 버튼 signInButton
+40. 로그인 버튼 loginButton
+41. URL 복사 버튼 urlCopyButton
+42. 전체화면 버튼 fullScreenButton
+43. 수정된 댓글 revisedComments
+44. 삭제된 댓글 deletedComments
+45. 임시저장된 포스트 draftPosts
+46. 즐겨찾기한 포스트 목록 bookmarkedPostsList
+47. 친구 목록 friendsList
+48. 정렬된 아이템 목록 orderedItemsList
+49. 시작일 startDate
+50. 종료일 endDate
+
+* 참고 사이트 : https://www.curioustore.com/
