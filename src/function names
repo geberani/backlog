@@ -1,0 +1,52 @@
+1. 아이디를 가져온다 getId
+2. 이름을 설정한다 setId
+3. 모듈을 추가한다 addModule
+4. 유저를 생성한다 createUser
+5. 유저 정보를 업데이트한다 updateUserInfo
+6. 유저를 삭제한다 deleteUser
+7. 즐겨찾기 목록에 유저를 추가한다 addUserToFavoritesList
+8. 차단 목록에 유저를 추가한다 addUserToBlockedList
+9. 선택된 사진들을 저장한다 saveSelectedPhotos
+10. 경고창을 띄운다 popWarningWindow
+11. 이메일을 검증한다 verifyEmail
+12. 비밀번호를 검증한다 verifyPassword
+13. 폼에 입력된 정보들을 제출한다 submitForm
+**??
+14. JSON에 있는 정보들을 해석한다 interpreteInformationInJson
+15. 이미지가 있는 URL을 HTML 데이터로부터 가져온다 getUrlWithImageFromHtmlData
+16. URL에 있는 이미지를 다운로드한다 downloadImageInUrl
+17. 이미지를 업로드한다 uploadImage
+18. 포스트를 생성한다 addPost
+19. 포스트를 삭제한다 deletePost
+20. 댓글 목록을 표시한다 showCommentsList
+21. 댓글 목록을 숨긴다 hideCommentsList
+22. 태그를 추가한다 addTags
+23. 태그 리스트를 보여준다 showTagList
+24. 우선 순위가 높은 순서대로 정렬한다 sortByHighPriority
+25. 우선 순위가 낮은 순서대로 정렬한다 sortByLowPriority
+26. 생성일 순으로 정렬한다(인자로 내림차 순, 오름차 순 정보를 추가로 받는다) sortByCreationDate
+27. 할 일 목록 전체를 가져온다 getFullToDoList
+28. 한 개의 할 일을 완료처리한다 checkOneTaskCompleted
+29. 완료처리된 할 일을 비완료처리한다 uncheckCompletedTasks
+30. 사각형을 그린다 drawSquare
+31. 호를 그린다drawArc
+32. 좌표를 인자로 받아 이동한다 moveToSelectedCoordinate
+33. border를 추가한다 addBorder
+34. border에 radius값을 설정한다 setRadiusOfBorder
+35. 대화방을 개설한다 openChatRoom
+36. 대화방에 들어간다 joinChatRoom
+37. 선택한 유저를 강제퇴장 시킨다 kickOutSelectedUsers
+38. 메시지를 보낸다 sendMessage
+39. 장바구니에 아이템을 추가한다 addItemsToCart
+40. 쿠폰을 적용한다 applyCoupons
+41. 선택한 아이템들을 구매한다 purchaseSelectedItems
+42. 상품 리스트를 표시한다 showItemList
+43. 상품 디테일 화면을 표시한다 showProductDetailsScreen
+44. 뉴스 목록을 가져온다 getNewsList
+45. 뉴스 목록을 격자 형태로 표시한다 showNewsListInGrid
+46. 뉴스 목록을 로우 형태로 표시한다 showNewsListInRows
+47. 편집모드로 변경한다 changeToEditMode
+48. 초대 링크를 생성한다 createInvitationLink
+49. 공지사항을 알린다 informNotice
+50. 홈 화면으로 이동한다 goHome
+https://soojin.ro/blog/naming-boolean-variables
