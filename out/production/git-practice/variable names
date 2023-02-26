@@ -1,0 +1,66 @@
+1. 유저이름 val userName: String
+2. 유저 이름 입력 폼 val userNameInputForm: String
+Insert -> Input
+3. 비밀번호 val password: String
+4. 재확인 비밀번호 var passwordConfirm: String
+5. 검증된 비밀번호 val passwordConfirmed: String
+6. 경고 메시지 var warningMessage: String
+7. 폼 제출 버튼 val formSubmitButton ???
+8. 취소 버튼 val cancelButton ????
+9. 배경 색상 val backgroundColor: String
+10. 텍스트 색상 val textColor: String
+11. 다른 뷰를 감싸고 있는 뷰 val surroundingView: String
+enclosingView?
+12. 홀수인지 판명 var isOdd: Boolean
+13. 짝수인지 판명 var isEven: Boolean
+14. 자식 프로퍼티를 소유하고 있는지 판명 var hasChildProperty: Boolean
+15. 빈 값인지 판명 var isNull: Boolean
+16. 숨김 처리가 되어있는지 판명 var isHidden: Boolean
+17. 로딩 중인지 판명 var isLoading: Boolean
+18. 인터넷이 켜진 상태인지 판명 var internetConnected: Boolean
+19. 디바이스가 태블릿 인지 판명 var isTablet: Boolean
+20. 사용 불가능한 상태인지 판명 var isUnavailable: Boolean
+21. 숨김처리된 상태인지 판명 var isHidden: Boolean
+22. 다크모드인지 판명 var isDarkMode: Boolean
+23. 이미지 주소 val imageUrl: String
+24. 생성일 val createDate: String
+25. 수정일 val modifyDate: String
+26. 태그 목록 val tagList: List
+27. 검색결과 val searchResults: List
+28. 필터링 한 결과 val filteredResults: List
+29. 가격 val price: Int
+30. 할인율 val discountRate: Int
+31. 할인된 가격 val discountPrice: Int
+32. 최신 포스트 목록 var latestPostsList: List
+recent/new->latest
+33. 인기 포스트 목록 var popularPostsList: List
+34. 구매한 상품 목록 var purchasedItemsList: List
+35. 가장 많이 팔리는 상품들 var mostSoldItems: List
+36. 새로고침 버튼 val refreshButton
+37. 로딩 버튼 val loadingButton
+38. 저장 버튼 val saveButton
+39. 회원가입 버튼 val signInButton
+40. 로그인 버튼 val loginButton
+41. URL 복사 버튼 val urlCopyButton
+42. 전체화면 버튼 val fullScreenButton
+43. 수정된 댓글 var revisedComments: String
+44. 삭제된 댓글 var deletedComments: String
+45. 임시저장된 포스트 var draftPosts: List
+46. 즐겨찾기한 포스트 목록 var bookmarkedPostsList: List
+47. 친구 목록 var friendsList: List
+48. 정렬된 아이템 목록 var orderedItemsList: List
+49. 시작일 val startDate: String
+50. 종료일 val endDate: String
+
+Q. 언제 list를 사용하고 Array를 사용하나요?
+ex. 데이터 순서가 중요하지 않을 때
+구체적인 예시도 알고 싶어요!
+ex. 쿠팡의 상품 목록 등
+
+참고)
+- 저장할 데이터의 개수가 정해져 있고 / 삽입, 삭제 작업이 적고 / 특정 위치의 데이터를 조회하는 작업이 많다면 배열(Array)
+- 저장할 데이터의 개수가 미정이고 / 삽입, 삭제 작업이 많고 / 특정 위치 데이터를 조회하는 경우가 별로 없다면 리스트(List)
+
+Q. val/var의 사용 용례
+-> 변화를 주는 주체, 빈도의 차이?
+@. val/var은 프로그램을 시행한 이후에 함수 또는 처리 과정 내에서 변화가 있을 수 있다면 var인가요?
